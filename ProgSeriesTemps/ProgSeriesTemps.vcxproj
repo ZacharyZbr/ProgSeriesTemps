@@ -127,7 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cAR.cpp" />
+    <ClCompile Include="cDistribution.cpp" />
+    <ClCompile Include="cMA.cpp" />
+    <ClCompile Include="cMeanModel.cpp" />
+    <ClCompile Include="cTimeSeries.cpp" />
     <ClCompile Include="ProgSeriesTemps.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cAR.h" />
+    <ClInclude Include="cDistribution.h" />
+    <ClInclude Include="cMA.h" />
+    <ClInclude Include="cMeanModel.h" />
+    <ClInclude Include="cTimeSeries.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
