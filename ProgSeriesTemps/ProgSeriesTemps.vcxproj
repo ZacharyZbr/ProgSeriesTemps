@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="cAR.cpp" />
     <ClCompile Include="cDistribution.cpp" />
+    <ClCompile Include="cGaussian.cpp" />
     <ClCompile Include="cMA.cpp" />
     <ClCompile Include="cMeanModel.cpp" />
     <ClCompile Include="cTimeSeries.cpp" />
@@ -136,16 +137,19 @@
     <ClCompile Include="ProgSeriesTemps.cpp" />
     <ClCompile Include="cARCH.cpp" />
     <ClCompile Include="cGARCH.cpp" />
+    <ClCompile Include="TimeModel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cAR.h" />
     <ClInclude Include="cDistribution.h" />
+    <ClInclude Include="cGaussian.h" />
     <ClInclude Include="cMA.h" />
     <ClInclude Include="cMeanModel.h" />
     <ClInclude Include="cTimeSeries.h" />
     <ClInclude Include="cVarModel.h" />
     <ClInclude Include="cARCH.h" />
     <ClInclude Include="cGARCH.h" />
+    <ClInclude Include="TimeModel.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

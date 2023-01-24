@@ -2,29 +2,30 @@
 #define cTimeSeries_h
 
 #include <iostream>
-#include <string>
+#include "gsl/gsl_vector.h"
 
 
 
 class cTimeSeries
 {
+
 public:
 	std::string theName;
 	int theSize;
-	double *theData;
+	gsl_vector* theData;
 
 
-	cTimeSeries(double *theData, int theSize, std::string theName);
+	cTimeSeries(std::string theName, int theSize, gsl_vector* theData);
 	cTimeSeries();
 	~cTimeSeries();
-	
-	cTimeSeries(double* theData, int theSize);
 	double mean();
 	double std();
 	void plot();
 
 	
 };
+
+
 
 
 #endif
