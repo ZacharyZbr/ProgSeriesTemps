@@ -2,10 +2,16 @@
 //
 
 #include <iostream>
+#include "cMeanModel.h"
+#include "gsl/gsl_math.h"
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << "Hello World !" << std::endl;
+    int test_gsl = gsl_max(12, 65);
+    std::cout << test_gsl << std::endl;
+
     
 }
 
