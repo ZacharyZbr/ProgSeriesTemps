@@ -12,10 +12,8 @@ public:
 	//gsl_vector* theParams;
 	gsl_rng* r;
 
-
 	virtual double mSimulate();
 
-	
 };
 
 #endif 
