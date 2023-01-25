@@ -132,6 +132,7 @@
     <ClCompile Include="cGaussian.cpp" />
     <ClCompile Include="cMA.cpp" />
     <ClCompile Include="cMeanModel.cpp" />
+    <ClCompile Include="cStudent.cpp" />
     <ClCompile Include="cTimeSeries.cpp" />
     <ClCompile Include="cVarModel.cpp" />
     <ClCompile Include="ProgSeriesTemps.cpp" />
@@ -145,6 +146,7 @@
     <ClInclude Include="cGaussian.h" />
     <ClInclude Include="cMA.h" />
     <ClInclude Include="cMeanModel.h" />
+    <ClInclude Include="cStudent.h" />
     <ClInclude Include="cTimeSeries.h" />
     <ClInclude Include="cVarModel.h" />
     <ClInclude Include="cARCH.h" />

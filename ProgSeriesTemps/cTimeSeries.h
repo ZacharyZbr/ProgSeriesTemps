@@ -5,7 +5,6 @@
 #include "gsl/gsl_vector.h"
 
 
-
 class cTimeSeries
 {
 

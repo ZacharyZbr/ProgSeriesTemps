@@ -9,7 +9,7 @@ class cDistribution
 {
 public:
 	std::string theName;
-	//gsl_vector* theParams;
+	gsl_vector* theParams;
 	gsl_rng* r;
 
 	virtual double mSimulate();
